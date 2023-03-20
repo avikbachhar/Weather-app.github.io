@@ -1,0 +1,186 @@
+body {
+    background-image: url("./utils/Loved\ This\ Place.jfif");
+}
+
+.weather-app {
+    height: 650px;
+    width: 350px;
+    background-image: url("./utils/iPhone\ X\ Wallpapers_\ Photo.jfif");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    border-radius: 30px;
+    
+}
+
+.search-area {
+    padding-top: 20px !important;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.city-name {
+    margin-top: 60px !important;
+    text-align: center;
+}
+
+.data-text,
+.forecast-airquality {
+    text-align: center;
+}
+
+.forecast-airquality {
+    margin-top: 10px;
+}
+
+.weather-img {
+
+
+    height: 170px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weather-app-img {
+    height: 200px;
+    width: 200px;
+}
+
+.temparature {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.wind-cloud-visibility {
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 300px;
+    display: flex;
+}
+
+.wind,
+.cloud,
+.visibility {
+    height: 70px;
+    width: 80px;
+}
+
+.wcv-temp {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.developer-contact {
+    text-align: center;
+    margin-top: 10px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.test {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    height: 45px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weather-wind-img {
+    height: 45px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.weather-cloud-img {
+    height: 45px;
+    width: 70px;
+
+}
+
+.weather-visibility-img {
+    margin-top: 5px;
+    height: 35px;
+    width: 70px;
+
+}
+
+.wind-info,
+.cloud-info,
+.wisibility-info {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 10px auto;
+    position: absolute;
+    width: 285px;
+}
+
+.wrapper .search-input {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 14px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+}
+
+.search-input .icon {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-input .auto-com-box {
+    padding: 0px;
+    max-height: 280px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-input.active .auto-com-box {
+
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.auto-com-box li {
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    display: none;
+
+}
+
+.search-input.active .auto-com-box li {
+    display: block;
+}
+
+.auto-com-box li:hover {
+    background: #efefef;
+}
